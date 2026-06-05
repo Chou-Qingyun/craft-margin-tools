@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 720" role="img" aria-labelledby="title desc">
+  <title id="title">Seller margin workspace</title>
+  <desc id="desc">A stylized dashboard with charts, calculator cards, and print-on-demand product mockups.</desc>
+  <defs>
+    <linearGradient id="screen" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7fffc"/>
+      <stop offset="1" stop-color="#dcefeb"/>
+    </linearGradient>
+    <linearGradient id="poster" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#2563a9"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#1e2528" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="980" height="720" rx="42" fill="#edf5f2"/>
+  <path d="M0 560c150-56 260-44 390-8 152 42 327 62 590-35v203H0z" fill="#d6e8e3"/>
+  <g filter="url(#shadow)">
+    <rect x="184" y="104" width="588" height="360" rx="28" fill="#1e2528"/>
+    <rect x="208" y="130" width="540" height="296" rx="18" fill="url(#screen)"/>
+    <rect x="326" y="464" width="302" height="36" rx="12" fill="#2f3b40"/>
+    <path d="M282 500h398l54 70H230z" fill="#c9d8d4"/>
+    <rect x="260" y="530" width="444" height="24" rx="12" fill="#e8efed"/>
+  </g>
+  <g>
+    <rect x="246" y="170" width="180" height="88" rx="14" fill="#ffffff"/>
+    <rect x="454" y="170" width="250" height="88" rx="14" fill="#ffffff"/>
+    <rect x="246" y="286" width="458" height="104" rx="14" fill="#ffffff"/>
+    <path d="M276 226h31l22-34 24 45 22-21h31" fill="none" stroke="#0f766e" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="496" cy="214" r="28" fill="#0f766e"/>
+    <path d="M496 186a28 28 0 0 1 26 38l-26-10z" fill="#d97706"/>
+    <rect x="550" y="188" width="118" height="12" rx="6" fill="#b7c8c3"/>
+    <rect x="550" y="216" width="86" height="12" rx="6" fill="#d3dfdb"/>
+    <rect x="282" y="340" width="52" height="28" rx="8" fill="#2563a9"/>
+    <rect x="354" y="316" width="52" height="52" rx="8" fill="#0f766e"/>
+    <rect x="426" y="300" width="52" height="68" rx="8" fill="#d97706"/>
+    <rect x="498" y="328" width="52" height="40" rx="8" fill="#be3455"/>
+    <rect x="570" y="292" width="52" height="76" rx="8" fill="#334155"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M98 456h164l-25 156H124z" fill="#ffffff"/>
+    <path d="M139 456c8-44 76-44 84 0" fill="none" stroke="#cbd8d4" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="181" cy="528" r="34" fill="#0f766e"/>
+    <path d="M164 531l11 12 25-30" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M764 410c48 0 86 38 86 86v104H678V496c0-48 38-86 86-86z" fill="#ffffff"/>
+    <path d="M710 480c18-26 90-26 108 0v88H710z" fill="#e7f4f1"/>
+    <path d="M710 480c24 18 84 18 108 0" fill="none" stroke="#0f766e" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="764" cy="530" r="30" fill="#2563a9"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="570" y="502" width="116" height="150" rx="10" fill="#ffffff"/>
+    <rect x="590" y="522" width="76" height="110" rx="4" fill="url(#poster)"/>
+    <circle cx="628" cy="558" r="18" fill="#ffffff" opacity="0.85"/>
+    <path d="M596 616l26-34 17 22 12-14 15 26z" fill="#ffffff" opacity="0.85"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M112 625c120 28 520 42 742-10" fill="none" stroke="#ffffff" stroke-width="34" stroke-linecap="round"/>
+  </g>
+</svg>

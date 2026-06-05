@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Etsy Fee Calculator | CraftMarginTools.com</title>
+    <meta
+      name="description"
+      content="Free Etsy fee calculator for sellers. Estimate listing fees, transaction fees, payment processing, offsite ads, costs, and net profit."
+    >
+    <link rel="canonical" href="https://craftmargintools.com/etsy-fee-calculator/">
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../" aria-label="CraftMarginTools.com home">
+        <span class="brand-mark">CM</span>
+        <span>CraftMarginTools.com</span>
+      </a>
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a href="../#tools">Tools</a>
+        <a href="../#sources">Sources</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="tool-page-hero">
+        <div>
+          <p class="eyebrow">Etsy seller calculator</p>
+          <h1>Etsy Fee Calculator</h1>
+          <p class="hero-lede">
+            Calculate item price, shipping charged, listing fee, transaction fee, payment processing, offsite ads, product cost, and net profit.
+          </p>
+        </div>
+      </section>
+
+      <section class="tool-page-grid">
+        <article class="tool-panel active">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Marketplace fee math</p>
+              <h2>Etsy fees and profit</h2>
+            </div>
+            <span class="pill">Editable defaults</span>
+          </div>
+          <form class="calculator-grid" data-calculator="etsy">
+            <label>Item price <input name="price" type="number" min="0" step="0.01" value="28"></label>
+            <label>Shipping charged <input name="shippingCharged" type="number" min="0" step="0.01" value="4.99"></label>
+            <label>Product cost <input name="productCost" type="number" min="0" step="0.01" value="9.50"></label>
+            <label>Shipping cost <input name="shippingCost" type="number" min="0" step="0.01" value="4.20"></label>
+            <label>Listing fee <input name="listingFee" type="number" min="0" step="0.01" value="0.20"></label>
+            <label>Transaction fee % <input name="transactionRate" type="number" min="0" step="0.01" value="6.5"></label>
+            <label>Payment processing % <input name="processingRate" type="number" min="0" step="0.01" value="3"></label>
+            <label>Payment fixed fee <input name="processingFixed" type="number" min="0" step="0.01" value="0.25"></label>
+            <label>Offsite ads % <input name="offsiteRate" type="number" min="0" step="0.01" value="0"></label>
+            <label>Other ad cost <input name="adCost" type="number" min="0" step="0.01" value="0"></label>
+          </form>
+          <div class="results" id="etsy-results" aria-live="polite"></div>
+        </article>
+
+        <aside class="seo-copy">
+          <h2>How this Etsy fee calculator works</h2>
+          <p>
+            Enter the amount the buyer pays, then add production, shipping, ad, and fee assumptions. The calculator estimates gross revenue, total fees, net profit, and profit margin.
+          </p>
+          <h2>Common use cases</h2>
+          <ul>
+            <li>Check whether a handmade or POD listing is profitable.</li>
+            <li>Compare free shipping against paid shipping.</li>
+            <li>Model offsite ad impact before raising prices.</li>
+          </ul>
+          <h2>FAQ</h2>
+          <details open>
+            <summary>Are the Etsy fee defaults always current?</summary>
+            <p>No. Etsy fees can vary by country and payment setup. Treat the defaults as editable starting points and verify them against Etsy's official fee pages.</p>
+          </details>
+          <details>
+            <summary>Does this include taxes?</summary>
+            <p>No. This calculator focuses on listing economics and does not provide tax, accounting, legal, or financial advice.</p>
+          </details>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>CraftMarginTools.com</span>
+      <a href="../">All seller tools</a>
+    </footer>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

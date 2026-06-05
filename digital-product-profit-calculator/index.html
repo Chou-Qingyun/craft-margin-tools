@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Digital Product Profit Calculator | CraftMarginTools.com</title>
+    <meta
+      name="description"
+      content="Free digital product profit calculator for Etsy templates, SVG files, planners, Notion templates, and downloads."
+    >
+    <link rel="canonical" href="https://craftmargintools.com/digital-product-profit-calculator/">
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../" aria-label="CraftMarginTools.com home">
+        <span class="brand-mark">CM</span>
+        <span>CraftMarginTools.com</span>
+      </a>
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a href="../#tools">Tools</a>
+        <a href="../#sources">Sources</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="tool-page-hero">
+        <div>
+          <p class="eyebrow">Digital seller calculator</p>
+          <h1>Digital Product Profit Calculator</h1>
+          <p class="hero-lede">
+            Estimate monthly profit for digital downloads such as templates, SVG files, planners, spreadsheets, fonts, and Notion templates.
+          </p>
+        </div>
+      </section>
+
+      <section class="tool-page-grid">
+        <article class="tool-panel active">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Templates, SVG, planners</p>
+              <h2>Monthly digital product profit</h2>
+            </div>
+            <span class="pill">Monthly model</span>
+          </div>
+          <form class="calculator-grid" data-calculator="digital">
+            <label>Price per sale <input name="price" type="number" min="0" step="0.01" value="7.99"></label>
+            <label>Monthly sales <input name="sales" type="number" min="0" step="1" value="85"></label>
+            <label>Marketplace fee % <input name="marketplaceRate" type="number" min="0" step="0.01" value="6.5"></label>
+            <label>Payment processing % <input name="processingRate" type="number" min="0" step="0.01" value="3"></label>
+            <label>Payment fixed fee <input name="processingFixed" type="number" min="0" step="0.01" value="0.25"></label>
+            <label>Listing fee per sale <input name="listingFee" type="number" min="0" step="0.01" value="0.20"></label>
+            <label>Ad cost per sale <input name="adCost" type="number" min="0" step="0.01" value="0.80"></label>
+            <label>Monthly software cost <input name="softwareCost" type="number" min="0" step="0.01" value="29"></label>
+            <label>Customer support cost <input name="supportCost" type="number" min="0" step="0.01" value="0.10"></label>
+          </form>
+          <div class="results" id="digital-results" aria-live="polite"></div>
+        </article>
+
+        <aside class="seo-copy">
+          <h2>Digital products still have real costs</h2>
+          <p>
+            Digital products have no physical fulfillment cost, but marketplace fees, payment processing, listing fees, ads, software subscriptions, and support time can still reduce profit.
+          </p>
+          <h2>Works for</h2>
+          <ul>
+            <li>Etsy printable templates and planners.</li>
+            <li>SVG bundles, fonts, mockups, presets, and spreadsheets.</li>
+            <li>Notion templates, Canva templates, and digital downloads.</li>
+          </ul>
+          <h2>FAQ</h2>
+          <details open>
+            <summary>Why model this monthly?</summary>
+            <p>Digital product sellers often have recurring software and ad costs, so monthly profit gives a clearer view than one-sale margin alone.</p>
+          </details>
+          <details>
+            <summary>Should I include design time?</summary>
+            <p>You can add it as support cost or account for it separately as upfront product development cost.</p>
+          </details>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>CraftMarginTools.com</span>
+      <a href="../">All seller tools</a>
+    </footer>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

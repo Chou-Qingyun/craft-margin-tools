@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Etsy Pricing Calculator | CraftMarginTools.com</title>
+    <meta
+      name="description"
+      content="Free Etsy pricing calculator. Enter desired profit, product cost, shipping, fees, and ads to estimate the item price you should charge."
+    >
+    <link rel="canonical" href="https://craftmargintools.com/etsy-pricing-calculator/">
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../" aria-label="CraftMarginTools.com home">
+        <span class="brand-mark">CM</span>
+        <span>CraftMarginTools.com</span>
+      </a>
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a href="../#tools">Tools</a>
+        <a href="../#sources">Sources</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="tool-page-hero">
+        <div>
+          <p class="eyebrow">Reverse price calculator</p>
+          <h1>Etsy Pricing Calculator</h1>
+          <p class="hero-lede">
+            Start with your target profit, then estimate the item price needed after Etsy fees, shipping, production cost, payment processing, and ads.
+          </p>
+        </div>
+      </section>
+
+      <section class="tool-page-grid">
+        <article class="tool-panel active">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Target profit</p>
+              <h2>Suggested Etsy price</h2>
+            </div>
+            <span class="pill">Reverse calculator</span>
+          </div>
+          <form class="calculator-grid" data-calculator="pricing">
+            <label>Desired profit <input name="desiredProfit" type="number" min="0" step="0.01" value="10"></label>
+            <label>Shipping charged <input name="shippingCharged" type="number" min="0" step="0.01" value="4.99"></label>
+            <label>Product cost <input name="productCost" type="number" min="0" step="0.01" value="8.50"></label>
+            <label>Shipping cost <input name="shippingCost" type="number" min="0" step="0.01" value="4.20"></label>
+            <label>Listing fee <input name="listingFee" type="number" min="0" step="0.01" value="0.20"></label>
+            <label>Transaction fee % <input name="transactionRate" type="number" min="0" step="0.01" value="6.5"></label>
+            <label>Payment processing % <input name="processingRate" type="number" min="0" step="0.01" value="3"></label>
+            <label>Payment fixed fee <input name="processingFixed" type="number" min="0" step="0.01" value="0.25"></label>
+            <label>Offsite ads % <input name="offsiteRate" type="number" min="0" step="0.01" value="0"></label>
+            <label>Ad cost per order <input name="adCost" type="number" min="0" step="0.01" value="0"></label>
+          </form>
+          <div class="results" id="pricing-results" aria-live="polite"></div>
+        </article>
+
+        <aside class="seo-copy">
+          <h2>Use target profit to set Etsy prices</h2>
+          <p>
+            This tool reverses the usual margin calculation. Instead of asking what you earn from a price, it estimates the price required for the profit you want.
+          </p>
+          <h2>Helpful checks</h2>
+          <ul>
+            <li>Test a $5, $10, or $15 profit target.</li>
+            <li>Compare paid shipping with free shipping.</li>
+            <li>Add ad cost before increasing listing budget.</li>
+          </ul>
+          <h2>FAQ</h2>
+          <details open>
+            <summary>Why is the suggested price higher than expected?</summary>
+            <p>Percentage fees apply to buyer-paid revenue, so the listing price must also cover fees on the shipping amount and fixed fees.</p>
+          </details>
+          <details>
+            <summary>Can I use this for POD listings?</summary>
+            <p>Yes. Use your POD base cost as product cost and your provider shipping charge as shipping cost.</p>
+          </details>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>CraftMarginTools.com</span>
+      <a href="../">All seller tools</a>
+    </footer>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

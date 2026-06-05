@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>POD Profit Calculator | CraftMarginTools.com</title>
+    <meta
+      name="description"
+      content="Free POD profit calculator for t-shirt, mug, poster, and print-on-demand sellers. Estimate base costs, shipping, ads, fees, and net margin."
+    >
+    <link rel="canonical" href="https://craftmargintools.com/pod-profit-calculator/">
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../" aria-label="CraftMarginTools.com home">
+        <span class="brand-mark">CM</span>
+        <span>CraftMarginTools.com</span>
+      </a>
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a href="../#tools">Tools</a>
+        <a href="../#sources">Sources</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="tool-page-hero">
+        <div>
+          <p class="eyebrow">Print-on-demand calculator</p>
+          <h1>POD Profit Calculator</h1>
+          <p class="hero-lede">
+            Estimate profit for POD t-shirts, mugs, posters, and gifts after product cost, shipping, ad spend, platform fees, and payment processing.
+          </p>
+        </div>
+      </section>
+
+      <section class="tool-page-grid">
+        <article class="tool-panel active">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Print-on-demand orders</p>
+              <h2>POD order margin</h2>
+            </div>
+            <span class="pill">T-shirts, mugs, posters</span>
+          </div>
+          <form class="calculator-grid" data-calculator="pod">
+            <label>Sale price <input name="price" type="number" min="0" step="0.01" value="24.99"></label>
+            <label>Shipping charged <input name="shippingCharged" type="number" min="0" step="0.01" value="3.99"></label>
+            <label>POD base cost <input name="baseCost" type="number" min="0" step="0.01" value="10.80"></label>
+            <label>POD shipping cost <input name="shippingCost" type="number" min="0" step="0.01" value="4.75"></label>
+            <label>Platform fee % <input name="platformRate" type="number" min="0" step="0.01" value="6.5"></label>
+            <label>Processing % <input name="processingRate" type="number" min="0" step="0.01" value="3"></label>
+            <label>Processing fixed fee <input name="processingFixed" type="number" min="0" step="0.01" value="0.25"></label>
+            <label>Ad cost per order <input name="adCost" type="number" min="0" step="0.01" value="3.50"></label>
+            <label>Returns allowance <input name="returnsCost" type="number" min="0" step="0.01" value="0.75"></label>
+          </form>
+          <div class="results" id="pod-results" aria-live="polite"></div>
+        </article>
+
+        <aside class="seo-copy">
+          <h2>What to include in POD profit</h2>
+          <p>
+            POD profit changes quickly once you include base cost, print provider shipping, platform fees, payment processing, returns allowance, and ad cost per sale.
+          </p>
+          <h2>Best for</h2>
+          <ul>
+            <li>Etsy sellers using Printify, Printful, Gelato, or similar providers.</li>
+            <li>T-shirt, mug, sweatshirt, poster, and wall art listings.</li>
+            <li>Testing whether ad cost leaves enough margin.</li>
+          </ul>
+          <h2>FAQ</h2>
+          <details open>
+            <summary>Should I include shipping charged to the buyer?</summary>
+            <p>Yes. Add what the buyer pays as shipping charged, then add what your POD provider charges you as shipping cost.</p>
+          </details>
+          <details>
+            <summary>Does this replace provider cost tables?</summary>
+            <p>No. Use your provider's current product and shipping costs, then enter those numbers here.</p>
+          </details>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>CraftMarginTools.com</span>
+      <a href="../">All seller tools</a>
+    </footer>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
