@@ -345,6 +345,111 @@ h3 {
   font-weight: 800;
 }
 
+.seo-main {
+  display: grid;
+  gap: 18px;
+  padding: 0 clamp(18px, 4vw, 56px) clamp(58px, 8vw, 104px);
+}
+
+.content-block {
+  max-width: 1120px;
+  padding: clamp(18px, 3vw, 28px);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.content-block h2 {
+  font-size: clamp(1.35rem, 2.5vw, 2.1rem);
+  line-height: 1.14;
+}
+
+.content-block p,
+.content-block ol,
+.content-block ul {
+  max-width: 880px;
+  margin: 14px 0 0;
+  color: var(--muted);
+}
+
+.content-block ol,
+.content-block ul {
+  padding-left: 22px;
+}
+
+.content-block li + li {
+  margin-top: 8px;
+}
+
+.content-block details {
+  max-width: 880px;
+  padding: 14px 0;
+  border-top: 1px solid var(--line);
+}
+
+.content-block details:first-of-type {
+  margin-top: 14px;
+}
+
+.content-block summary {
+  color: var(--ink);
+  cursor: pointer;
+  font-weight: 850;
+}
+
+.content-block a {
+  color: var(--accent-dark);
+  font-weight: 800;
+}
+
+.formula-box {
+  display: grid;
+  gap: 10px;
+  max-width: 920px;
+  margin-top: 16px;
+  padding: 16px;
+  border: 1px solid rgba(15, 118, 110, 0.22);
+  border-radius: 8px;
+  background: #eaf6f3;
+}
+
+.formula-box p {
+  margin: 0;
+  color: var(--accent-dark);
+  font-weight: 800;
+}
+
+.example-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  max-width: 1120px;
+}
+
+.example-grid .content-block {
+  height: 100%;
+}
+
+.related-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 1120px;
+}
+
+.related-tools a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--accent-dark);
+  font-weight: 850;
+  text-decoration: none;
+}
+
 .panel-heading {
   display: flex;
   align-items: flex-start;
@@ -549,6 +654,7 @@ textarea:focus,
   .tool-card-grid,
   .tool-layout,
   .tool-page-grid,
+  .example-grid,
   .sources {
     grid-template-columns: 1fr;
   }
